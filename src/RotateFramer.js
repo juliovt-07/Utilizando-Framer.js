@@ -6,10 +6,10 @@ export function MyRotate() {
     <Frame
       size={50}
       radius={10}
-      animate={{ rotate: 360 }}
+      animate={{ background: ["#F05", "#85F", "#0CF"], rotate: 360 }}
       transition={{
         duration: 2,
-        loop: Infinity,
+        yoyo: Infinity,
         ease: "linear"
       }}
     />
